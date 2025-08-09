@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_URL || 'https://wealthmanagerbackend-5z9f.onrender.com/api/portfolio'
+const API_BASE = import.meta.env.VITE_API_URL || 'https://wealthmanagerbackend-dghr.onrender.com/api/portfolio'
 
 async function fetchApi(endpoint, options = {}) {
   const url = `${API_BASE}${endpoint}`
