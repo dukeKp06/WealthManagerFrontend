@@ -17,7 +17,7 @@ async function fetchApi(endpoint, options = {}) {
     
     return await response.json()
   } catch (error) {
-    console.error('API fetch error:', error)
+    console.error('API fetch errors:', error)
     throw error
   }
 }
